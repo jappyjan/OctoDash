@@ -55,6 +55,7 @@
     "ng": "ng",
     "start": "npm-run-all -p ng:serve electron:serve electron:serve:big",
     "start:big": "npm-run-all -p ng:serve electron:serve:big",
+    "start:web": "ng serve --host 0.0.0.0 --disable-host-check ",
     "build": "npm run ng:build && electron .",
     "test": "",
     "lint": "eslint ./src/ -c .eslintrc.js --ext .ts",
